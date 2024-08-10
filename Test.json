@@ -1,0 +1,69 @@
+
+{
+    "name": "Rozsa 2000s Edition",
+    "author": "Modified by ChatGPT",
+    "version": "1.0.1",
+    "description": "A modified version of the Rozsa theme with a 2000s design aesthetic.",
+    "colors": {
+        "background-primary": "#1A1A1A",
+        "background-secondary": "#262626",
+        "background-tertiary": "#333333",
+        "background-accent": "#FF00CC",  
+        "background-floating": "#FF66FF",  
+        "background-modifier-hover": "rgba(255, 255, 255, 0.1)",
+        "background-modifier-active": "rgba(255, 255, 255, 0.2)",
+        "brand-experiment": "#00FFFF",
+        "text-normal": "#FFFFFF",
+        "text-muted": "#FFCCFF",
+        "text-link": "#00FFCC",
+        "interactive-normal": "#00FFCC",  
+        "interactive-hover": "#FF66FF",  
+        "interactive-active": "#FF00CC",  
+        "background-banner": "linear-gradient(135deg, #FF00CC 0%, #FF66FF 50%, #00FFFF 100%)",
+        "scrollbar-thin-thumb": "#FF00CC",
+        "scrollbar-auto-thumb": "#FF66FF",
+        "scrollbar-thin-track": "#262626",
+        "scrollbar-auto-track": "#333333"
+    },
+    "fonts": {
+        "primary": {
+            "name": "Verdana, sans-serif",
+            "size": "14px",
+            "style": "normal"
+        },
+        "secondary": {
+            "name": "Tahoma, sans-serif",
+            "size": "12px",
+            "style": "italic"
+        },
+        "code": {
+            "name": "Courier New, monospace",
+            "size": "13px",
+            "style": "normal"
+        }
+    },
+    "elements": {
+        "button": {
+            "background": "linear-gradient(135deg, #FF00CC, #FF66FF)",
+            "border": "1px solid #FF00CC",
+            "border-radius": "5px",
+            "box-shadow": "0 4px 10px rgba(255, 0, 204, 0.5)",
+            "text-color": "#FFFFFF",
+            "hover": {
+                "background": "linear-gradient(135deg, #FF66FF, #00FFFF)",
+                "box-shadow": "0 6px 12px rgba(0, 255, 204, 0.5)"
+            }
+        },
+        "icon": {
+            "color": "#FFFFFF",
+            "hover-color": "#FF00CC",
+            "shadow": "0 2px 5px rgba(0, 0, 0, 0.5)"
+        },
+        "input": {
+            "background": "#262626",
+            "border": "1px solid #FF00CC",
+            "text-color": "#FFFFFF",
+            "placeholder-color": "#FF66FF"
+        }
+    }
+}
